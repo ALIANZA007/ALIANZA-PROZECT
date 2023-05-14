@@ -1,0 +1,20 @@
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+thead {
+    background-color: aquamarine;
+}
+
+th { 
+    text-align: middle; }
+
+
+    th:nth-child(even),td:nth-child(even) {
+        background-color: bisque;
+    }
+
+tr:nth-child(even) {
+    background-color: yellow;
+}
+
