@@ -1,20 +1,30 @@
-table, th, td {
+/* TABLE1 */
+.table1 th {
     border: 2px solid black;
     border-collapse: collapse;
 }
-thead {
+
+.table1 td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.table1 thead {
     background-color: aquamarine;
 }
 
-th { 
-    text-align: middle; }
-
-
-    th:nth-child(even),td:nth-child(even) {
-        background-color: bisque;
-    }
-
-tr:nth-child(even) {
-    background-color: yellow;
+/* TABLE2 */
+.table2 th {
+    border: 2px solid black;
+    border-collapse: collapse;
 }
 
+.table2 td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.table2 thead {
+    background-color: green;
+}
+    
